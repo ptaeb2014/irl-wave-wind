@@ -28,7 +28,7 @@ body {
 
 /* The Modal (background) */
 .modal {
-  display: none;
+  display: block;
   position: fixed;
   z-index: 1;
   padding-top: 100px;
@@ -46,7 +46,7 @@ body {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 90%;
+  width: 40%;
   max-width: 1200px;
 }
 
@@ -348,6 +348,7 @@ img.hover-shadow {
     <img src="https://github.com/ptaeb2014/irl-wave-wind/blob/master/waves/s2017_12.png?raw=true" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
 </div>
+
 
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
