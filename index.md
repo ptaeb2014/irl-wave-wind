@@ -46,7 +46,7 @@ body {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 40%;
+  width: 25%;
   max-width: 1200px;
 }
 
